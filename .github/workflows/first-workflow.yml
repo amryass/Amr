@@ -10,7 +10,7 @@ jobs:
              uses: actions/checkout@v4.1.7
 
            - name: welcome msg
-             run : echo"hello data eng" 
+             run : echo "hello data eng " 
 
            - name : list files 
              run : 
