@@ -14,8 +14,9 @@ jobs:
 
            - name : list files 
              run : 
-                chmod +x script.sh
-                ./script.sh
+                   chmod +x script.sh
+                  ./script.sh
+                  
            - name: install cowsay program 
              run: sudo apt-get install cowsay -y
            
